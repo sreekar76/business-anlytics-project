@@ -58,7 +58,7 @@ elif page == "2. Data Insights":
 
     # Load dataset for visualizations
     try:
-        df = pd.read_csv('data/loan_dataset.csv')
+        df = pd.read_csv('loan_dataset.csv')
 
         col1, col2 = st.columns(2)
 
